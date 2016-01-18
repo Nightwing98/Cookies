@@ -1,0 +1,6 @@
+C:\programs\far2.0\Programing technologies\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\programs\far2.0\Programing technologies\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\programs\far2.0\Programing technologies\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\programs\far2.0\Programing technologies\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\programs\far2.0\Programing technologies\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\programs\far2.0\Programing technologies\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
