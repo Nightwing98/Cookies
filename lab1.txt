@@ -1,0 +1,20 @@
+CREATE TABLE users(
+id int NOT  NULL,
+firstname varchar(50),
+lastname varchar(50)
+);
+ALTER TABLE users
+ADD COLUMN isadmin int;
+ALTER TABLE users
+ALTER COLUMN isadmin SET DATA TYPE boolean USING isadmin::boolean;
+ALTER TABLE users
+ALTER COLUMN isadmin SET DEFAULT false;
+ALTER TABLE users
+ADD CONSTRAINT PK_id PRIMARY KEY (id);
+CREATE TABLE tasks(
+id int NOT NULL,
+name varchar(50),
+user_id int
+);
+DROP TABLE tasks
+DROP DATABASE Lab1
