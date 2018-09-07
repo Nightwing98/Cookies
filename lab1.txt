@@ -1,3 +1,4 @@
+CREATE DATABASE Lab1;
 CREATE TABLE users(
 id int NOT  NULL,
 firstname varchar(50),
