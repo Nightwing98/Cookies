@@ -1,0 +1,42 @@
+﻿CREATE DATABASE lab5;
+
+CREATE TABLE customers(
+customer_id int,
+cust_name varchar(250),
+city varchar(50),
+grade int,
+salesman_id int
+);
+
+
+CREATE TABLE orders{
+ order_id SERIAL PRIMARY KEY,
+ custumer_id INT,
+ description VARCHAR(250),
+ purch_amt INT
+ };
+
+SELECT SUM(purch_amt) FROM orders;
+
+SELECT AVG(purch_amt) FROM orders;
+
+SELECT COUNT(*) FROM customers;
+
+SELECT MIN(purch_amt) FROM orders;
+
+SELECT * FROM customers WHERE cust_name LIKE ‘%B’;
+
+SELECT * FROM orders WHERE customer_id = (SELECT customer_id FROM custumers WHERE city = "New York");
+
+SELECT * FROM customers WHERE customer_id=(SELECT customer_id FROM orders HAVING sum(order_id) > 10);
+
+SELECT grade , COUNT ( DISTINCT customer_id) FROM customers 
+GROUP BY grade
+HAVING grade;
+
+SELECT cust_name FROM customers WHERE cust_name IS NOT NULL;
+
+SELECT MAX(grade) FROM customers;
+
+
+
